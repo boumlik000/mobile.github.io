@@ -1,0 +1,115 @@
+@media(max-width:1024px){
+    section.option .option-img img{
+        width: 80%;
+         
+    }
+    section.option .option-img{
+        bottom: 100px;
+    }
+}
+@media(max-width:992px) and (min-width:768px){
+    /*header*/
+    header.header .overlay{
+        padding: 0;
+    }
+    header.header .overlay .header-img  img{
+        left: 50px;
+    }
+    /*features*/
+    section.feature .features .d-flex{
+        margin-bottom: 40px;
+    }
+    section.feature .features .d-flex h1{
+        font-size: 20px !important;
+        margin-bottom: 8px;
+    }
+    section.feature .features .d-flex p{
+        font-size: 12px;
+        line-height: 15px;
+    }
+    section.feature .feature-img img{
+        margin-top: 80px;
+    }
+    section.feature .features .d-flex .flex-shrink-0 i{
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        color: #fff;
+        background-color: #ef473a;
+        text-align: center;
+        display: block;
+        border-radius: 2px;
+    }
+    /*option*/
+    section.option{
+        padding-top:50px;
+        background-color: #f9f8f8;
+        position: relative;
+    }
+    section.option .options .d-flex h1{
+        font-size: 24px;
+        line-height: 30px;
+        color: #141414; 
+    }
+    section.option .option-img{
+        top: 130px;
+        left: 8 0px;
+    }
+    section.option .option-img img{
+        width: 60%;
+    }
+    /*slider*/
+    section.slider .slider-carousel .carousel-control-prev,
+    section.slider .slider-carousel .carousel-control-next{
+    width: 70px;
+    height: 70px;
+    border: 1px solid #ef473a;
+    border-radius: 50%;
+    color: #ef473a;
+    opacity: 1;
+    margin-top:65px;
+    }
+}
+@media(max-width:768px){
+    header.header .overlay{
+        padding-top: 0;
+        padding-bottom: 400px;
+        text-align: center;
+    }
+    header.header .overlay .header-img  img{
+        
+        bottom: -500px;
+        right: 25%;
+    }
+    section.feature .features{
+        margin-top: 50px;
+    }
+    /*option*/
+    section.option{
+        padding-top:0;
+        padding-bottom: 400px;
+    }
+    section.option .option-img{
+        bottom: -300px;
+    }
+    /*slider*/
+    section.slider .slider-carousel .carousel-control-prev,
+    section.slider .slider-carousel .carousel-control-next{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ef473a;
+    border-radius: 50%;
+    color: #ef473a;
+    opacity: 1;
+    margin-top:65px;
+    }
+}
+@media(max-width:481px){
+    section.option .option-img img{
+       max-width: 100%;
+        
+    }
+    section.option .option-img{
+        bottom: -150px;
+    }
+}
